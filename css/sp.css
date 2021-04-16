@@ -1,0 +1,446 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+
+.instaglam_logo,.twitter_logo,.corse_img,.logo img
+{
+    width:80%;
+}
+
+.logo img
+{
+    width: 40%;
+}
+
+/* main */
+
+.top
+{
+    margin: 0 50px 0;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main
+{
+    width: 100%;
+    height: 560px;
+    background: tomato;
+}
+
+.sns_logo
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logo_date
+{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 18px;
+}
+
+.logo_date p
+{
+    margin-top: 50px;
+    line-height: 2.5em;
+}
+
+.scroll
+{
+    display: none;
+}
+
+/* about */
+
+.about
+{
+    width: 100%;
+    height: 690px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background: url("../img/background.png");
+    overflow: hidden;
+}
+
+.about_text
+{
+    margin: 0 auto;
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.about_h h2
+{
+    margin-top: 10px;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.about_h p
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+}
+
+.about_d h2
+{
+    margin-top: 39px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.text
+{
+    margin-top: 39px;
+    line-height: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+
+.about_d p:first-line
+{
+    font-size: 14px;
+}
+
+.left_img
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.right_img
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.history_h
+{
+    margin: 48px 0 16px 0;
+    font-size: 14px;
+}
+
+.history a
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex;
+    width: 360px;
+    height: 64px;
+    border: 1px solid #333;
+    color: #333;
+    font-weight: bold;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* img */
+
+.left_img .one
+{
+    position: absolute;
+    top: -92px;
+    left: 11px;
+}
+
+.left_img .two
+{
+    position: absolute;
+    top: 30px;
+    left: -112px;
+}
+
+.left_img .three
+{
+    display: none
+}
+
+.left_img .four
+{
+    display: none;
+}
+
+.right_img .one
+{
+    position: absolute;
+    top: 421px;
+    right: -101px;
+}
+
+.right_img .two
+{
+    position: absolute;
+    top: 541px;
+    right: 20px;
+}
+
+.right_img .three
+{
+display: none;  
+}
+
+.right_img .four
+{
+display: none;
+}
+
+/* corse */
+
+.corse
+{
+    text-align: center;
+    width: 100%;
+    background: url("../img/sp_corse_back.png") no-repeat;
+    background-size: cover;
+    padding-top: 36px;
+}
+
+.corse_h h2
+{
+    margin-bottom: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.it_corse,.web_corse
+{
+    width: 284px;
+    margin: 0 auto;
+}
+
+.it_corse ul,.web_corse ul
+{
+    align-items: center;
+    list-style-type: none;
+}
+
+.it_corse li,.web_corse li
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #FFFFFF;
+    text-align: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 284px;
+    height: 75px;
+}
+
+.it_corse li
+{
+    background-color: rgba(79, 132, 208, 0.7)
+}
+
+.it_left
+{
+    margin-bottom: 72px;
+}
+
+.web_left
+{
+    margin-bottom: 72px;
+}
+
+.web_corse li
+{
+    background-color: rgba(234, 137, 0, 0.7)
+}
+
+.web_corse
+{
+    margin-top: 55px;
+    padding-bottom: 70px;
+}
+
+/* access */
+
+.access
+{
+    width: 100%;
+    padding-top: 46px;
+    text-align: center;
+    background: url("../img/sp_back.png") no-repeat;
+}
+
+.access_h h2
+{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.access_h p
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+}
+
+.access_text
+{
+    margin-top: 18px;
+}
+
+.access_about ul li,.access_about .address,.access_about p
+{
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
+}
+.access_about
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+
+.access_about ul
+{
+    color: #333;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.address
+{
+    font-style: normal;
+}
+
+/* sponsor */
+
+.sponsor
+{
+    width: 100%;
+    height: 416px;
+    margin: 0 auto;
+    padding-top: 82px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.sponsor_h
+{
+    margin-bottom: 72px;
+}
+
+.sponsor_h h2
+{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.sponsor_h p
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+}
+
+.square .one
+{
+    position: absolute;
+    left: -100px;
+    top: -100px;
+}
+
+.square .one img
+{
+    width: 200px;
+    height: 200px;
+}
+
+.square .two
+{
+    position: absolute;
+    left: -100px;
+    bottom: -100px;
+}
+
+.square .two img
+{
+    width: 200px;
+    height: 200px;
+}
+
+
+.square .three
+{
+    position: absolute;
+    right: -100px;
+    top: -100px;
+}
+
+.square .three img
+{
+    width: 200px;
+    height: 200px;
+}
+
+
+.square .four
+{
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+}
+
+.square .four img
+{
+    width: 200px;
+    height: 200px;
+}
+
+/* footer */
+.footer
+{
+    width: 100%;
+    background: url("../img/sp_back.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.instaglam
+{
+    display: none;
+}
+
+.twitter h2,.instaglam h2
+{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 32px;
+}
+
+.twitter p, .instaglam p
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+}
+
+small 
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10px;
+}

@@ -1,0 +1,439 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+
+/* main */
+
+.top
+{
+    margin: 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main
+{
+    width: 100%;
+    height: 768px;
+}
+
+.sns_logo
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logo_date
+{
+    text-align: center;
+    width: 472px;
+    margin: 0 auto;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 30px;
+}
+
+.logo_date p
+{
+    margin-top: 50px;
+    line-height: 3.5em;
+}
+
+
+/* about */
+
+.about
+{
+    width: 100%;
+    height: 690px;
+    margin: 0 auto;
+    position: relative;
+    background: url("../img/background.png");
+    overflow: hidden;
+}
+
+.about_text
+{
+    width: 710px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.about_h h2
+{
+    margin-top: 10px;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.about_h p
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+.about_d h2
+{
+    margin-top: 39px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.text
+{
+    margin-top: 39px;
+    line-height: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+
+.about_d p:first-line
+{
+    font-size: 20px;
+}
+
+.left_img
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.right_img
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.history_h
+{
+    margin: 48px 0 16px 0;
+    font-size: 20px;
+}
+
+.history a
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex;
+    width: 360px;
+    height: 64px;
+    border: 1px solid #333;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* img */
+
+.left_img .one
+{
+    position: absolute;
+    top: -52px;
+    left: 51px;
+}
+
+.left_img .two
+{
+    position: absolute;
+    top: 70px;
+    left: -72px;
+}
+
+.left_img .three
+{
+    position: absolute;
+    top: 193px;
+    left: 51px;
+}
+
+.left_img .four
+{
+    position: absolute;
+    top: 317px;
+    left: -73px;
+}
+
+.right_img .one
+{
+    position: absolute;
+    top: 143px;
+    right: -61px;
+}
+
+.right_img .two
+{
+    position: absolute;
+    top: 264px;
+    right: 60px;
+}
+
+.right_img .three
+{
+    position: absolute;
+    top: 387px;
+    right: -60px;
+}
+
+.right_img .four
+{
+    position: absolute;
+    top: 512px;
+    right: 60px;
+}
+
+/* corse */
+
+.corse
+{
+    text-align: center;
+    width: 100%;
+    height: 499px;
+    background: url("../img/course_background.png") no-repeat;
+    background-size: cover;
+    padding-top: 81px;
+}
+
+.corse_h h2
+{
+    margin-bottom: 105px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.it_corse ul,.web_corse ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.it_corse li,.web_corse li
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #FFFFFF;
+    text-align: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 118px;
+}
+
+.it_corse li
+{
+    background-color: rgba(79, 132, 208, 0.7)
+}
+
+.it_left
+{
+    margin-right: 72px;
+}
+
+.web_left
+{
+    margin-right: 72px;
+}
+
+.web_corse li
+{
+    background-color: rgba(234, 137, 0, 0.7)
+}
+
+.web_corse
+{
+    margin-top: 55px;
+}
+
+/* access */
+
+.access
+{
+    width: 100%;
+    height: 663px;
+    margin: 0 auto;
+    padding-top: 82px;
+    text-align: center;
+    background: url("../img/background.png");
+}
+
+.access_h h2
+{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.access_h p
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+.access_text
+{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    height: 420px;
+}
+
+.access_about
+{
+    margin-left: 80px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: left;
+    font-size: 16px;
+}
+
+.access_about ul
+{
+    color: #333;
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 34px;
+}
+
+.address
+{
+    width: 295px;
+    font-style: normal;
+    padding-bottom: 16px;
+}
+
+/* sponsor */
+
+.sponsor
+{
+    width: 100%;
+    height: 406px;
+    margin: 0 auto;
+    padding-top: 82px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.sponsor_h
+{
+    margin-bottom: 72px;
+}
+
+.sponsor_h h2
+{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.sponsor_h p
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+.square .one
+{
+    position: absolute;
+    left: -295px;
+    top: -300px;
+}
+
+.square .two
+{
+    position: absolute;
+    left: -295px;
+    bottom: -300px;
+}
+
+.square .three
+{
+    position: absolute;
+    right: -295px;
+    top: -300px;
+}
+
+.square .four
+{
+    position: absolute;
+    right: -295px;
+    bottom: -300px;
+}
+
+/* footer */
+.footer
+{
+    width: 100%;
+    height: 501px;
+    background: url("../img/background.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.sns
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_about
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sns
+{
+    margin-top: 81px;
+    margin-bottom: 74px;
+}
+
+.instaglam
+{
+    margin-left: 92px;
+    visibility: hidden;
+}
+
+.twitter h2,.instaglam h2
+{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 30px;
+}
+
+.twitter p, .instaglam p
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10px;
+}
+
+.footer_logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+small 
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 8px;
+}
